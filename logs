@@ -1,0 +1,3 @@
+- set up git - done
+- solved error 
+    psycopg2.errors.InvalidColumnReference: there is no unique or exclusion constraint matching the ON CONFLICT specification
