@@ -29,7 +29,7 @@ def create_table_in_postgres():
         title VARCHAR(255) NOT NULL,
         company VARCHAR(255),
         location VARCHAR(255),
-        url TEXT,
+        url TEXT UNIQUE NOT NULL,
         description TEXT,
         date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         date_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
